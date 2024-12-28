@@ -1,21 +1,21 @@
-name = "user1"
+name = "user2"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
 routes = [
-  { pattern = "user1.hehdinn.web.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.user1.hehdinn.web.id", custom_domain = true },
-  { pattern = "graph.instagram.com.user1.hehdinn.web.id", custom_domain = true },
-  { pattern = "quiz.int.vidio.com.user1.hehdinn.web.id", custom_domain = true },
-  { pattern = "investors.spotify.com.user1.hehdinn.web.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.user1.hehdinn.web.id", custom_domain = true },
-  { pattern = "cache.netflix.com.user1.hehdinn.web.id", custom_domain = true },
-  { pattern = "blog.webex.com.user1.hehdinn.web.id", custom_domain = true },
-  { pattern = "support.zoom.us.user1.hehdinn.web.id", custom_domain = true },
+  { pattern = "user2.hehdinn.web.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.user2.hehdinn.web.id", custom_domain = true },
+  { pattern = "graph.instagram.com.user2.hehdinn.web.id", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.user2.hehdinn.web.id", custom_domain = true },
+  { pattern = "investors.spotify.com.user2.hehdinn.web.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.user2.hehdinn.web.id", custom_domain = true },
+  { pattern = "cache.netflix.com.user2.hehdinn.web.id", custom_domain = true },
+  { pattern = "blog.webex.com.user2.hehdinn.web.id", custom_domain = true },
+  { pattern = "support.zoom.us.user2.hehdinn.web.id", custom_domain = true },
 ]
 [vars]
 PROXYIP = "103.6.207.108:8080"
-UUID = "16c35a9a-8fc0-487d-b511-e908c8f7dbba"
-# SOCKS5 = "127.0.0.1:1080"
-# SOCKS5_RELAY = "true"
+UUID = "7b327c33-b960-4575-9421-404fde97e5b2"
+SOCKS5 = "127.0.0.1:1080"
+SOCKS5_RELAY = "true"
