@@ -1,11 +1,21 @@
-name = "cf-worker-ws-dev"
+name = "user1"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
-
+routes = [
+  { pattern = "user1.hehdinn.web.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.user1.hehdinn.web.id", custom_domain = true },
+  { pattern = "graph.instagram.com.user1.hehdinn.web.id", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.user1.hehdinn.web.id", custom_domain = true },
+  { pattern = "investors.spotify.com.user1.hehdinn.web.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.user1.hehdinn.web.id", custom_domain = true },
+  { pattern = "cache.netflix.com.user1.hehdinn.web.id", custom_domain = true },
+  { pattern = "blog.webex.com.user1.hehdinn.web.id", custom_domain = true },
+  { pattern = "support.zoom.us.user1.hehdinn.web.id", custom_domain = true },
+]
 [vars]
-# PROXYIP = "211.230.110.231:50008"
-UUID = "1b6c1745-992e-4aac-8685-266c090e50ea"
+PROXYIP = "103.6.207.108:8080"
+UUID = "16c35a9a-8fc0-487d-b511-e908c8f7dbba"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
